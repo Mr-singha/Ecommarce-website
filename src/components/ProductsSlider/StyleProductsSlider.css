@@ -1,0 +1,17 @@
+.productsSlider .swiper-wrapper{
+    padding: 15px;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+.productsSlider .swiper-button-prev::after, .productsSlider .swiper-button-next::after{
+    color: #000;
+}
+
+.productsSlider .swiper-button-prev:hover, .productsSlider .swiper-button-next:hover{
+    background: #ff5252!important;
+}
+
+.productsSlider .swiper-button-prev:hover::after, .productsSlider .swiper-button-next:hover::after{
+    color: #fff!important;
+}

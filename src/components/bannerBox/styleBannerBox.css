@@ -1,0 +1,20 @@
+.smlBtn .swiper-button-prev, .smlBtn .swiper-button-next{
+    width: 30px !important;
+    height: 30px !important;
+    min-width: 30px !important;
+    top: 55% !important;
+    
+}
+
+.smlBtn .swiper-button-prev::after, .smlBtn .swiper-button-next::after{
+    font-size: 16px !important;
+    color: #000;
+}
+
+.smlBtn .swiper-button-prev:hover, .smlBtn .swiper-button-next:hover{
+    background: #ff5252!important;
+}
+
+.smlBtn .swiper-button-prev:hover::after, .smlBtn .swiper-button-next:hover::after{
+    color: #fff!important;
+}
